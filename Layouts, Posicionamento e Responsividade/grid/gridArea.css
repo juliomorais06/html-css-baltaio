@@ -1,0 +1,42 @@
+.container{
+    border: 3px solid black;
+    max-width: 750px;
+    margin: 2%;
+}
+.item{
+    text-align: center;
+    color: blueviolet;
+    font-size: 15px;
+    background-color: cadetblue;
+    margin: 1%;
+}
+.grid{
+    display: grid;
+}
+.grid-area{
+    grid-template-columns: 2fr 4fr 1fr;
+    grid-template-rows: 25px 100px 25px;
+    grid-template-areas: 
+    "area-1 area-2 area-2"
+    "area-3 area-4 area-5"
+    "area-3 area-6 area-6"
+    ;
+}
+.area1{
+    grid-area: area-1;
+}
+.area2{
+    grid-area: area-2;
+}
+.area3{
+    grid-area: area-3;
+}
+.area4{
+    grid-area: area-4;
+}
+.area5{
+    grid-area: area-5;
+}
+.area6{
+    grid-area: area-6;
+}

@@ -1,0 +1,15 @@
+.estilos {
+    width: 100%;
+    height: 100%;
+    border: 10px solid black;
+    background-image: url("https://inamara.com/wp-content/uploads/2018/04/COMO-DIZER-_-LEGAL.jpg");
+    color: white;
+    font-size: 10em;
+}
+
+/*
+medidas relativas - conforme o tamanho do dispositivo (%, vw-largura, vh-altura, em-fonte, rem-fonte)
+
+medidas absolutas - não mudam (px)
+
+*/

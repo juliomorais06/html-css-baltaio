@@ -1,0 +1,24 @@
+.container{
+    border: 10px solid blue;
+    max-width: 372px;
+    margin: 0 2% 2% 35%;
+}
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-direction{
+    flex-direction: row-reverse;
+}
+.item{
+    font-size: 2em;
+    color:aqua;
+    margin: 5px;
+    text-align: center;
+    background-color: gray;
+}
+.paragrafo{
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+/* seletores
+    1) classe (.) pode usar quantas vezes forem necessárias
+    2)Id (#) é um seletor único
+    3)p, h1
+*/
+
+.primeira-classe-ext{
+    background-color: #ccc;
+    font-size: 30px;
+    font-weight: 800px;
+}
+
+#primeiro-id-ext {
+    background-color: #234;
+    font-size: 40px;
+    font-weight: 300px;
+}
+
+h1 {
+    background-color: aliceblue;
+}
+
+p {
+    background-color: green;
+}

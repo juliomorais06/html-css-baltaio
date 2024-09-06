@@ -1,0 +1,18 @@
+.container{
+    border: 3px solid red;
+    max-width: 600px;
+    margin: 2% 2% 2% 5%;
+}
+.displaygrid{
+    display: grid;
+}
+.gridcolumns{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.item{
+    margin: 5px;
+    font-size: 30px;
+    color: black;
+    background-color: dimgrey;
+    text-align: center;
+}

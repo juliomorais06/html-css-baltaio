@@ -1,0 +1,23 @@
+.container{
+    border: 10px solid green;
+    max-width: 400px;
+    margin: 5% 2% 2% 8%;
+}
+.flex{
+    display: flex;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.item{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    background-color: blueviolet;
+}
+.flex-justify{
+    justify-content: space-around;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}

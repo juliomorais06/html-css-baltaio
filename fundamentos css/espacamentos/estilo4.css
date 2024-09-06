@@ -1,0 +1,14 @@
+.estilos {
+    border: 12px solid greenyellow;
+    background-image: url("https://rochacerqueira.com.br/wp-content/uploads/2022/10/conformidade-legal-1024x1024.png");
+    background-repeat: no-repeat;
+    color: black;
+    margin: 10% 5% 2% 15%;
+    padding: 3% 5% 15% 10%;
+    font-size: 5em;
+}
+
+/*
+    site propriedades css developer.mozilla
+
+*/
