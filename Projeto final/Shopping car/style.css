@@ -34,3 +34,9 @@ table {
 table thead tr {
     border-bottom: 3px solid gray;
 }
+table thead tr th {
+    text-align: left;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #666;
+}
