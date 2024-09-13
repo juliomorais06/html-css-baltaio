@@ -1,0 +1,6 @@
+body > header {
+    background-color: purple;
+    color: white;
+    font-size: 26px;
+    padding: 20px 0;
+}
