@@ -52,6 +52,7 @@ table thead tr th {
 .product {
     display: flex;
     align-items: center;
+    margin-top: 0.5em;
 }
     .product img {
         border-radius: 6px;
