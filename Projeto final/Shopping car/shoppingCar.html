@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho de Compras</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
@@ -26,29 +27,37 @@
                     <tbody>
                         <tr>
                             <td>
+                                <div class="product">
                                 <img src="images/teclado.jpg"
                                 height="100"
                                 width="100"
                                 alt="teclado-mecanico"
                                 >
-                                <div>Teclado Mecânico</div>
-                                <div>Periféricos</div>
+                                <div class="info">
+                                    <div class="name">Teclado Mecânico</div>
+                                    <div class="category">Periféricos</div>
+                                </div>
+                                </div>
                             </td>
                             <td>R$ 650,00</td>
                             <td>
-                                <button>
-                                    <i class="bx bx-minus"></i>
-                                </button>
-                                <span>2</span>
-                                <button>
-                                    <i class="bx bx-plus"></i>
-                                </button>
+                                <div class="quantity">
+                                    <button>
+                                        <i class="bx bx-minus"></i>
+                                    </button>
+                                    <span>2</span>
+                                    <button>
+                                        <i class="bx bx-plus"></i>
+                                    </button>
+                                </div>
                             </td>
                             <td>R$ 1.300,00</td>
                             <td>
-                                <button>
-                                    <i class="bx bx-x"></i>
-                                </button>
+                                <div class="remove">
+                                    <button>
+                                        <i class="bx bx-x"></i>
+                                    </button>
+                                </div>
                             </td>
                         </tr>
                     </tbody>
